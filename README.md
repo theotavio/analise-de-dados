@@ -12,7 +12,7 @@ Aplicação web analítica e interativa desenvolvida para explorar quatro décad
 
 ## Links do Projeto
 
-* **Dashboard Online (Streamlit Cloud):** [https://theotavio-analise-de-dados.streamlit.app/](https://theotavio-analise-de-dados.streamlit.app/)
+* **Dashboard Online (Streamlit Cloud):** [https://guerradeconsoles.streamlit.app/](https://guerradeconsoles.streamlit.app/)
 * **Base de Dados Original (Kaggle):** [Video Games Sales Dataset (vgsales)](https://www.kaggle.com/datasets/gregorut/videogamesales)
 
 ---

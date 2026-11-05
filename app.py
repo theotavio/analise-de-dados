@@ -157,7 +157,8 @@ COLORS = {
 }
 
 with st.sidebar:
-    st.markdown("**Repositório:** `analise-de-dados`")
+    st.markdown("**Repositório:** [`analise-de-dados`](https://github.com/theotavio/analise-de-dados)")
+    st.markdown("**Deploy Online:** [guerradeconsoles.streamlit.app](https://guerradeconsoles.streamlit.app/)")
     st.subheader("Filtros de Análise")
     
     min_year = int(df_full['Year'].min())
@@ -199,7 +200,11 @@ if title_query:
 
 st.markdown("""
 <div class="header-container">
-    <div class="repo-badge">Repositório: analise-de-dados</div>
+    <div class="repo-badge">
+        <a href="https://github.com/theotavio/analise-de-dados" target="_blank" style="text-decoration:none; color:inherit;">Repositório: analise-de-dados</a>
+        &nbsp;&bull;&nbsp;
+        <a href="https://guerradeconsoles.streamlit.app/" target="_blank" style="text-decoration:none; color:#1D4ED8;">guerradeconsoles.streamlit.app</a>
+    </div>
     <div class="main-title">A Guerra dos Consoles e o Choque Cultural</div>
     <div class="subtitle">Análise visual de 4 décadas de vendas, padrões de consumo regional e eficiência comercial de publicadoras</div>
 </div>
